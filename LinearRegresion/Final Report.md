@@ -27,7 +27,9 @@ Price: product cost
 ## workflow:
 
 After getting the data we start to clean them remove nulls values, weight conversion . After that we started to explore the dataset and split the data into %60 train/%20validation, and %20 for the test.
-Finally we tried two types of models First one is linear regression :
+Finally we tried two types of models:
+
+* First one is linear regression :
 
 The R square (Train) = 0.682
 
@@ -35,11 +37,12 @@ The R square(validation) = 0.679
 
 The testing R square = 0.684
 
-Second is Polynomial Regression :
+* Second is Polynomial Regression :
 
 The R square (Train) = 0.707
 
 The R square(validation) = 0.67
+
 The testing R square = 0.667
 
 #### As we see here we pick linear regression depends on the minimum difference between R square and testing R square which mean the model learn from linear regression better than polynomial regression and fit the data.
